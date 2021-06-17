@@ -39,8 +39,8 @@
 
 // // console.log(arr1)
 
- var num = 8
- var n = "B"
+//  var num = 8
+//  var n = "B"
 
 // if (num == 1){
 //     num = 2
@@ -69,3 +69,66 @@
 //  console.log(num)
 //  console.log(n)
 
+
+
+//  let i=0
+//  let arr = [10,20,30,40]
+// // console.log(arr.length) // นับอาเรย์
+// //  for(i=0 ; i<=10 ; i+=3){
+// //      console.log(i);
+// //  }
+
+//  for(i=0; i< arr.length; i++){
+//     console.log(arr[i])
+// }
+
+// while (i < arr.length) {
+//     console.log(arr[i]);
+//     i++;
+// }
+
+
+// do {
+//     console.log(arr[i]);
+//     i++;
+// } while (i< arr.length);
+
+// for(i=0; i < arr.length; i++){
+
+//     if(i == 2){
+//         //  break
+//         continue
+//     }
+
+//         console.log(arr[i])
+// }
+
+// JSON
+
+const byname = [
+    {
+        id:0,
+        user: "ben",
+        login: true,
+    },
+
+    {
+        id:1,
+        user: "nn",
+        login: false,
+    }
+];
+
+// byname.map((b)=>
+// console.log(b)
+// );
+
+console.log(byname[1].user)
+console.log(byname[1].login)
+
+// let free = byname[1].user + " " + (byname[1].login)
+// document.getElementById("nameme").innerHTML =  byname[0].user
+
+console.log(byname[0].user)
+document.getElementById("nameme").innerHTML = byname[0].user
+// document.getElementById("test").innerHTML = "sassatast"
