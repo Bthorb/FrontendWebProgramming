@@ -1,5 +1,7 @@
 // import FucntionalComponants from './Componants/FucntionalComponants';
-import State from "./Componants/State";
+// import State from "./Componants/State";
+// import LiskeyComponant from "./Componants/LiskeyComponant";
+import AxiosComponant from "./Componants/AxiosComponant";
 
 function App() {
   
@@ -9,7 +11,8 @@ function App() {
       {/* <FucntionalComponants byName="Ben" /> */}
       {/* <FucntionalComponants byName="Noey" />
       <FucntionalComponants byName="O" /> */}
-      <State/>
+     {/* <LiskeyComponant/> */}
+     <AxiosComponant/>
       </div>
   );
 }
